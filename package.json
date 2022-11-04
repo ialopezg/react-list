@@ -1,0 +1,27 @@
+{
+  "name": "@ialopezg/react-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isidro A. Lopez G. <me@ialopezg.com> (https://ialopezg.com)",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ialopezg/react-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ialopezg/react-ui/issues"
+  },
+  "homepage": "https://github.com/ialopezg/react-ui#readme",
+  "keywords": [
+    "react",
+    "react-table",
+    "react-ui"
+  ]
+}
