@@ -7,7 +7,8 @@
     "start": "webpack --watch --config src/config/webpack/lib.dev.js",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
     "lint:fix": "prettier-eslint '**/*.ts' --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "author": "Isidro A. Lopez G. <me@ialopezg.com> (https://ialopezg.com)",
   "files": [
@@ -28,10 +29,14 @@
     "react-ui"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.27",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "conventional-changelog-angular": "^5.0.13",
+    "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",

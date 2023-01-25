@@ -1,3 +1,3 @@
 # React UI
 
-> Custom Components & Functions for ReactJS and NodeJS
+> Components & Helper Functions for ReactJS and NodeJS
