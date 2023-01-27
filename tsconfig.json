@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "module": "commonjs",
+    "module": "ESNext",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2017",
-    "sourceMap": true,
+    "target": "ES6",
     "outDir": "./dist",
+    "rootDir": "./src",
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
